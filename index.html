@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <script src="/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/sweetalert2/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="container p-10">
+        <!-- 新しいToDoを入力するエリア -->
+        <div class="input-area w-full flex items-center justify-center flex-col">
+            <input type="text" id="todo-input" placeholder="新しいToDoを入力してください" class="border border-gray-300 p-2 mb-5 w-full max-w-xs">
+            <button id="add-button" class="mb-5 px-4 py-2 bg-blue-500 text-white font-bold hover:bg-blue-700 rounded w-40">
+                追加
+            </button>
+        </div>
+        <!-- ToDoリスト -->
+        <div class="todo-list">
+            <ul id="todo-list">
+                <!-- JavaScriptで<li>要素を追加予定 -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+aaaaaaa
